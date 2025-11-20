@@ -15,7 +15,7 @@ const Features = () => {
     },
     {
       icon: <Users className="w-14 h-14" />,
-      title: "National Instructor",
+      title: "Certified Instructor",
       description:
         "Learn from certified, experienced instructors who are committed to your success and safety.",
     },
@@ -23,7 +23,7 @@ const Features = () => {
       icon: <Clock className="w-14 h-14" />,
       title: "Get License",
       description:
-        "We guide you through every step of the licensing process to help you pass on your first try.",
+        "We guide you through every step of getting your license processed and to help you pass your test on first try.",
     },
   ];
 
