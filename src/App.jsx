@@ -18,8 +18,8 @@ function App() {
       <FeaturesSection />
       <AboutSection />
       <CoursesSection />
-      <InstructorsSection />
       <TestimonialsSection />
+      <InstructorsSection />
       <AppointmentSection />
       <MapSection />
       <Footer />
