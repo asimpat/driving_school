@@ -3,7 +3,7 @@ const CoursesSection = () => {
     {
       title: "Basic Driving Lessons",
       duration: "2 Weeks",
-      price: "$299",
+      price: "$22",
       features: [
         "10 Hours Behind the Wheel",
         "Theory and Road Rules",
@@ -13,9 +13,9 @@ const CoursesSection = () => {
       ],
     },
     {
-      title: "Advance Driving Lessons",
+      title: "Intermediate Driving Lessons",
       duration: "3 Weeks",
-      price: "$449",
+      price: "$35",
       popular: true,
       features: [
         "15 Hours Behind the Wheel",
@@ -26,14 +26,14 @@ const CoursesSection = () => {
       ],
     },
     {
-      title: "International Driving",
+      title: "Advanced Driving Lessons",
       duration: "4 Weeks",
-      price: "$599",
+      price: "$50",
       features: [
         "20 Hours Behind the Wheel",
         "All Road Type Training",
         "Night Driving Sessions",
-        "International License Prep",
+        "Test Day Simulation",
         "Full Support Until You Pass",
       ],
     },
