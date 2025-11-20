@@ -16,7 +16,7 @@ const AboutSection = () => {
             <div className="absolute -bottom-8 -right-8 bg-[#90EE90] p-8 rounded-2xl shadow-xl hidden lg:block">
               <div className="text-[#1a1a2e]">
                 <div className="text-5xl font-bold font-['Julius_Sans_One']">
-                  20+
+                  10+
                 </div>
                 <div className="text-lg font-semibold">Years Experience</div>
               </div>
@@ -28,7 +28,7 @@ const AboutSection = () => {
               We Help Students To Pass Test & Get A License On The First Try
             </h2>
             <p className="text-gray-600 text-lg mb-6 leading-relaxed">
-              At Empas Driving School, we have over 20 years of experience
+              At Empas Driving School, we have over 10 years of experience
               helping students become confident, skilled drivers. Our proven
               teaching methods and patient instructors ensure you're fully
               prepared for your driving test.
