@@ -135,7 +135,7 @@ const Footer = () => {
                   href="#courses"
                   className="text-gray-400 hover:text-[#90EE90] transition-colors"
                 >
-                  Advance Driving Lessons
+                  Intermediate Driving Lessons
                 </a>
               </li>
               <li>
@@ -143,7 +143,7 @@ const Footer = () => {
                   href="#courses"
                   className="text-gray-400 hover:text-[#90EE90] transition-colors"
                 >
-                  International Driving
+                  Advanced Driving Lesson
                 </a>
               </li>
               <li>
