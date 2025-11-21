@@ -146,7 +146,7 @@ const Footer = () => {
                   Advanced Driving Lesson
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a
                   href="#courses"
                   className="text-gray-400 hover:text-[#90EE90] transition-colors"
@@ -161,7 +161,7 @@ const Footer = () => {
                 >
                   Refresher Courses
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
 
@@ -175,14 +175,14 @@ const Footer = () => {
                 <Phone className="w-5 h-5 text-[#90EE90] flex-shrink-0 mt-1" />
                 <div>
                   <p className="font-semibold text-white mb-1">Phone</p>
-                  <p>+234 123 456 7890</p>
+                  <p>+234 903 2601 821</p>
                 </div>
               </li>
               <li className="flex items-start gap-3 text-gray-400">
                 <Mail className="w-5 h-5 text-[#90EE90] flex-shrink-0 mt-1" />
                 <div>
                   <p className="font-semibold text-white mb-1">Email</p>
-                  <p>info@empasdriving.com</p>
+                  <p>empas6371@gmail.com</p>
                 </div>
               </li>
               <li className="flex items-start gap-3 text-gray-400">
