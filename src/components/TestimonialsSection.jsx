@@ -1,34 +1,36 @@
-import React, { useState } from "react";
-import {
-  ChevronLeft,
-  ChevronRight,
-  Star,
-} from "lucide-react";
+import { ChevronLeft, ChevronRight, Star } from "lucide-react";
+import { useState } from "react";
 
 const TestimonialsSection = () => {
   const [current, setCurrent] = useState(0);
 
   const testimonials = [
     {
-      name: "Robert Thompson",
+      name: "Mr. Victor Thompson",
       role: "Student",
       rating: 5,
       text: "Excellent experience! The instructors at Empas were incredibly patient and professional. I passed my driving test on the first attempt thanks to their thorough training.",
-      img: 10,
+      image: null, // Replace with your image URL: "/path/to/image.jpg"
+      initials: "VT",
+      bgColor: "bg-blue-600",
     },
     {
-      name: "Jennifer Martinez",
+      name: "Mrs Precious Ben",
       role: "Student",
       rating: 5,
-      text: "I was nervous about learning to drive, but the team made me feel comfortable and confident. Best driving school in Ibadan! Highly recommended.",
-      img: 11,
+      text: "I was nervous about learning to drive, but the team made me feel comfortable and confident. Best driving school in Calabar! Highly recommended.",
+      image: null, // Replace with your image URL
+      initials: "PB",
+      bgColor: "bg-purple-600",
     },
     {
-      name: "David Anderson",
+      name: "Mr. David Effiong",
       role: "Student",
       rating: 5,
       text: "Professional staff, modern vehicles, and effective teaching methods. Worth every penny. I'm now a confident driver thanks to Empas Driving School.",
-      img: 12,
+      image: null, // Replace with your image URL
+      initials: "DE",
+      bgColor: "bg-teal-600",
     },
   ];
 
@@ -52,11 +54,21 @@ const TestimonialsSection = () => {
           <div className="bg-white/10 backdrop-blur-lg rounded-3xl p-12 border border-white/20">
             <div className="flex justify-center mb-8">
               <div className="w-24 h-24 rounded-full overflow-hidden ring-4 ring-[#90EE90]">
-                <img
-                  src={`https://i.pravatar.cc/200?img=${testimonials[current].img}`}
-                  alt={testimonials[current].name}
-                  className="w-full h-full object-cover"
-                />
+                {testimonials[current].image ? (
+                  <img
+                    src={testimonials[current].image}
+                    alt={testimonials[current].name}
+                    className="w-full h-full object-cover"
+                  />
+                ) : (
+                  <div
+                    className={`w-full h-full ${testimonials[current].bgColor} flex items-center justify-center`}
+                  >
+                    <span className="text-white text-3xl font-bold font-['Julius_Sans_One']">
+                      {testimonials[current].initials}
+                    </span>
+                  </div>
+                )}
               </div>
             </div>
 
@@ -114,4 +126,5 @@ const TestimonialsSection = () => {
     </section>
   );
 };
+
 export default TestimonialsSection;

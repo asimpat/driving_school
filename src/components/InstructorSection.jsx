@@ -4,25 +4,33 @@ const InstructorsSection = () => {
       name: "Michael Chen",
       role: "Senior Instructor",
       experience: "15 Years",
-      img: 1,
+      image: null, // Replace with your image URL: "/path/to/image.jpg"
+      initials: "MC",
+      bgColor: "bg-blue-500",
     },
     {
       name: "Sarah Williams",
       role: "Driving Trainer",
       experience: "12 Years",
-      img: 2,
+      image: null, // Replace with your image URL
+      initials: "SW",
+      bgColor: "bg-purple-500",
     },
     {
       name: "David Brown",
       role: "Head Instructor",
       experience: "18 Years",
-      img: 3,
+      image: null, // Replace with your image URL
+      initials: "DB",
+      bgColor: "bg-orange-500",
     },
     {
       name: "Emily Johnson",
       role: "Professional Trainer",
       experience: "10 Years",
-      img: 4,
+      image: null, // Replace with your image URL
+      initials: "EJ",
+      bgColor: "bg-pink-500",
     },
   ];
 
@@ -45,11 +53,21 @@ const InstructorsSection = () => {
               className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
             >
               <div className="aspect-square overflow-hidden">
-                <img
-                  src={`https://i.pravatar.cc/400?img=${instructor.img}`}
-                  alt={instructor.name}
-                  className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
-                />
+                {instructor.image ? (
+                  <img
+                    src={instructor.image}
+                    alt={instructor.name}
+                    className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
+                  />
+                ) : (
+                  <div
+                    className={`w-full h-full ${instructor.bgColor} flex items-center justify-center hover:scale-110 transition-transform duration-500`}
+                  >
+                    <span className="text-white text-6xl font-bold font-['Julius_Sans_One']">
+                      {instructor.initials}
+                    </span>
+                  </div>
+                )}
               </div>
               <div className="p-6 text-center">
                 <h3 className="text-xl font-bold mb-2 font-['Julius_Sans_One'] text-[#1a1a2e]">
@@ -69,4 +87,5 @@ const InstructorsSection = () => {
     </section>
   );
 };
+
 export default InstructorsSection;

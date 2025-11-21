@@ -87,11 +87,11 @@ const AboutSection = () => {
 
             <div className="flex gap-6">
               <button className="bg-[#90EE90] text-[#1a1a2e] px-8 py-4 rounded-full font-bold hover:bg-[#7CFC00] transition-all duration-300 shadow-lg">
-                Learn More
+               Book an Appointment with us
               </button>
-              <button className="border-2 border-[#1a1a2e] text-[#1a1a2e] px-8 py-4 rounded-full font-bold hover:bg-[#1a1a2e] hover:text-white transition-all duration-300">
+              {/* <button className="border-2 border-[#1a1a2e] text-[#1a1a2e] px-8 py-4 rounded-full font-bold hover:bg-[#1a1a2e] hover:text-white transition-all duration-300">
                 Contact Us
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
