@@ -1,33 +1,33 @@
 const InstructorsSection = () => {
   const instructors = [
     {
-      name: "Michael Chen",
-      role: "Senior Instructor",
+      name: "Cmdr. Patrick Okon Edet",
+      role: "CEO & Lead Instructor",
       experience: "15 Years",
       image: null, // Replace with your image URL: "/path/to/image.jpg"
-      initials: "MC",
+      initials: "PO",
       bgColor: "bg-blue-500",
     },
     {
-      name: "Sarah Williams",
+      name: "Asim Patrick",
       role: "Driving Trainer",
-      experience: "12 Years",
+      experience: "10 Years",
       image: null, // Replace with your image URL
-      initials: "SW",
+      initials: "AP",
       bgColor: "bg-purple-500",
     },
     {
-      name: "David Brown",
-      role: "Head Instructor",
-      experience: "18 Years",
+      name: "David James",
+      role: "Class Room Instructor",
+      experience: "5 Years",
       image: null, // Replace with your image URL
-      initials: "DB",
+      initials: "DJ",
       bgColor: "bg-orange-500",
     },
     {
       name: "Emily Johnson",
-      role: "Professional Trainer",
-      experience: "10 Years",
+      role: "Simulator Trainer",
+      experience: "7 Years",
       image: null, // Replace with your image URL
       initials: "EJ",
       bgColor: "bg-pink-500",
