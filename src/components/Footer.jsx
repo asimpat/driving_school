@@ -189,7 +189,7 @@ const Footer = () => {
                 <MapPin className="w-5 h-5 text-[#90EE90] flex-shrink-0 mt-1" />
                 <div>
                   <p className="font-semibold text-white mb-1">Address</p>
-                  <p>Ibadan, Oyo State, Nigeria</p>
+                  <p>12 Ikot Effa Calabar, Nigeria</p>
                 </div>
               </li>
             </ul>
@@ -203,13 +203,13 @@ const Footer = () => {
               &copy; 2025 Empas Driving School. All rights reserved.
             </p>
             <div className="flex gap-6 text-gray-400">
-              <a href="#" className="hover:text-[#90EE90] transition-colors">
+              <a>
                 Privacy Policy
               </a>
-              <a href="#" className="hover:text-[#90EE90] transition-colors">
+              <a >
                 Terms of Service
               </a>
-              <a href="#" className="hover:text-[#90EE90] transition-colors">
+              <a >
                 Cookie Policy
               </a>
             </div>
