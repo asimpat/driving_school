@@ -1,10 +1,13 @@
+import AsimImage from "../assets/img/asim.png"
+import PatrickImage from "../assets/img/patrick.jpeg";
+
 const InstructorsSection = () => {
   const instructors = [
     {
       name: "Cmdr. Patrick Okon Edet",
       role: "CEO & Lead Instructor",
       experience: "15 Years",
-      image: null, // Replace with your image URL: "/path/to/image.jpg"
+      image: PatrickImage, // Replace with your image URL: "/path/to/image.jpg"
       initials: "PO",
       bgColor: "bg-blue-500",
     },
@@ -12,7 +15,7 @@ const InstructorsSection = () => {
       name: "Asim Patrick",
       role: "Driving Trainer",
       experience: "10 Years",
-      image: null, // Replace with your image URL
+      image: AsimImage, // Replace with your image URL
       initials: "AP",
       bgColor: "bg-purple-500",
     },
