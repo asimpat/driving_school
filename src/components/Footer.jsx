@@ -33,25 +33,26 @@ const Footer = () => {
             </p>
             <div className="flex gap-4">
               <a
-                href="#"
+                href="https://web.facebook.com/people/EMPAS-Driving-School/100094079653030/"
+                target="_blank"
                 className="bg-[#90EE90] p-3 rounded-full hover:bg-[#7CFC00] transition-all duration-300"
               >
                 <Facebook className="w-5 h-5 text-[#1a1a2e]" />
               </a>
               <a
-                href="#"
+                // href="#"
                 className="bg-[#90EE90] p-3 rounded-full hover:bg-[#7CFC00] transition-all duration-300"
               >
                 <Twitter className="w-5 h-5 text-[#1a1a2e]" />
               </a>
               <a
-                href="#"
+                // href="#"
                 className="bg-[#90EE90] p-3 rounded-full hover:bg-[#7CFC00] transition-all duration-300"
               >
                 <Instagram className="w-5 h-5 text-[#1a1a2e]" />
               </a>
               <a
-                href="#"
+                // href="#"
                 className="bg-[#90EE90] p-3 rounded-full hover:bg-[#7CFC00] transition-all duration-300"
               >
                 <Linkedin className="w-5 h-5 text-[#1a1a2e]" />
@@ -203,15 +204,9 @@ const Footer = () => {
               &copy; 2025 Empas Driving School. All rights reserved.
             </p>
             <div className="flex gap-6 text-gray-400">
-              <a>
-                Privacy Policy
-              </a>
-              <a >
-                Terms of Service
-              </a>
-              <a >
-                Cookie Policy
-              </a>
+              <a>Privacy Policy</a>
+              <a>Terms of Service</a>
+              <a>Cookie Policy</a>
             </div>
           </div>
         </div>
