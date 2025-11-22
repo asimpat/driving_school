@@ -1,5 +1,5 @@
-
-
+// import drivngImage from "../assets/img/drivng1.jpeg";
+import drivngImage from "../assets/img/driving.png";
 const AboutSection = () => {
   return (
     <section id="about" className="py-20 bg-gray-50">
@@ -8,7 +8,7 @@ const AboutSection = () => {
           <div className="relative">
             <div className="rounded-3xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800"
+                src={drivngImage}
                 alt="Driving instruction"
                 className="w-full h-[600px] object-cover"
               />
@@ -87,7 +87,7 @@ const AboutSection = () => {
 
             <div className="flex gap-6">
               <button className="bg-[#90EE90] text-[#1a1a2e] px-8 py-4 rounded-full font-bold hover:bg-[#7CFC00] transition-all duration-300 shadow-lg">
-               Book an Appointment with us
+                Book an Appointment with us
               </button>
               {/* <button className="border-2 border-[#1a1a2e] text-[#1a1a2e] px-8 py-4 rounded-full font-bold hover:bg-[#1a1a2e] hover:text-white transition-all duration-300">
                 Contact Us
