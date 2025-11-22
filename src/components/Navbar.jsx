@@ -64,9 +64,12 @@ const Navbar = () => {
           </div>
 
           <div className="hidden lg:block">
-            <button className="bg-[#90EE90] text-[#1a1a2e] px-8 py-3 rounded-full font-semibold hover:bg-[#7CFC00] transition-all duration-300 shadow-lg">
+            <a
+              href="#contact"
+              className="bg-[#90EE90] text-[#1a1a2e] px-8 py-3 rounded-full font-semibold hover:bg-[#7CFC00] transition-all duration-300 shadow-lg"
+            >
               Book Now
-            </button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}

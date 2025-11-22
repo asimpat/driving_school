@@ -1,5 +1,7 @@
 import AsimImage from "../assets/img/asim.png"
 import PatrickImage from "../assets/img/patrick.jpeg";
+import DavidImage from "../assets/img/officeman.png";
+import EmilyImage from "../assets/img/officegirl.png";
 
 const InstructorsSection = () => {
   const instructors = [
@@ -12,6 +14,14 @@ const InstructorsSection = () => {
       bgColor: "bg-blue-500",
     },
     {
+      name: "David James",
+      role: "Class Room Instructor",
+      experience: "5 Years",
+      image: DavidImage, // Replace with your image URL
+      initials: "DJ",
+      bgColor: "bg-orange-500",
+    },
+    {
       name: "Asim Patrick",
       role: "Driving Trainer",
       experience: "10 Years",
@@ -20,18 +30,10 @@ const InstructorsSection = () => {
       bgColor: "bg-purple-500",
     },
     {
-      name: "David James",
-      role: "Class Room Instructor",
-      experience: "5 Years",
-      image: null, // Replace with your image URL
-      initials: "DJ",
-      bgColor: "bg-orange-500",
-    },
-    {
       name: "Emily Johnson",
       role: "Simulator Trainer",
       experience: "7 Years",
-      image: null, // Replace with your image URL
+      image: EmilyImage, // Replace with your image URL
       initials: "EJ",
       bgColor: "bg-pink-500",
     },
