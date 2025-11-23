@@ -112,7 +112,7 @@ const Navbar = () => {
               href="#testimonials"
               className="block py-2 hover:text-[#90EE90] transition-colors"
             >
-              Testimonials
+              Testimonials 
             </a>
             <a
               href="#contact"
