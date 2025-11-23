@@ -22,7 +22,6 @@ const Navbar = () => {
               Empas Driving School
             </span>
           </div>
-
           {/* Desktop Menu */}
           <div className="hidden lg:flex items-center space-x-8">
             <a
