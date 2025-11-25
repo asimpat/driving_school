@@ -34,7 +34,7 @@ const Hero = () => {
             Professional driving instruction with certified experts. Start your
             journey to becoming a confident driver today.
           </p>
-          <div className="flex flex-col sm:flex-row gap-6">
+          {/* <div className="flex flex-col sm:flex-row gap-6"> */}
             <a
               href="#contact"
               className="
@@ -59,7 +59,7 @@ const Hero = () => {
             {/* <button className="border-2 border-white text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-[#1a1a2e] transition-all duration-300">
               Learn More
             </button> */}
-          </div>
+          {/* </div> */}
 
           {/* Carousel Indicators */}
           <div className="flex gap-3 mt-12">
