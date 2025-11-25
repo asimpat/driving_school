@@ -35,12 +35,12 @@ const Hero = () => {
             journey to becoming a confident driver today.
           </p>
           <div className="flex flex-col sm:flex-row gap-6">
-            <button className="bg-[#90EE90] text-[#1a1a2e] px-10 py-4 rounded-full font-bold text-lg hover:bg-[#7CFC00] transition-all duration-300 shadow-xl">
+            <a className="bg-[#90EE90] text-[#1a1a2e] px-10 py-4 rounded-full font-bold text-lg hover:bg-[#7CFC00] transition-all duration-300 shadow-xl">
               Get Started
-            </button>
-            <button className="border-2 border-white text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-[#1a1a2e] transition-all duration-300">
+            </a>
+            {/* <button className="border-2 border-white text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-[#1a1a2e] transition-all duration-300">
               Learn More
-            </button>
+            </button> */}
           </div>
 
           {/* Carousel Indicators */}
