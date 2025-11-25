@@ -15,7 +15,7 @@ const CoursesSection = () => {
     {
       title: "Intermediate Driving Lessons",
       duration: "3 Weeks",
-      price: "$35",
+      price: "NGN 45,000",
       popular: true,
       features: [
         "15 Hours Behind the Wheel",
