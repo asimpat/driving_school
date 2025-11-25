@@ -3,7 +3,7 @@ const CoursesSection = () => {
     {
       title: "Basic Driving Lessons",
       duration: "2 Weeks",
-      price: "$22",
+      price: "NGN 35,000",
       features: [
         "10 Hours Behind the Wheel",
         "Theory and Road Rules",
