@@ -35,9 +35,27 @@ const Hero = () => {
             journey to becoming a confident driver today.
           </p>
           <div className="flex flex-col sm:flex-row gap-6">
-            <a className="bg-[#90EE90] text-[#1a1a2e] px-10 py-4 rounded-full font-bold text-lg hover:bg-[#7CFC00] transition-all duration-300 shadow-xl">
+            <a
+              href="#contact"
+              className="
+      inline-block
+      bg-[#90EE90]
+      text-[#1a1a2e]
+      px-10
+      py-4
+      rounded-full
+      font-semibold
+      text-lg
+      shadow-lg
+      hover:bg-[#7CFC00]
+      hover:shadow-xl
+      transition-all
+      duration-300
+    "
+            >
               Get Started
             </a>
+
             {/* <button className="border-2 border-white text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-[#1a1a2e] transition-all duration-300">
               Learn More
             </button> */}
