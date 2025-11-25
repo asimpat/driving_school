@@ -28,7 +28,7 @@ const CoursesSection = () => {
     {
       title: "Advanced Driving Lessons",
       duration: "4 Weeks",
-      price: "$50",
+      price: "NGN 60,000",
       features: [
         "20 Hours Behind the Wheel",
         "All Road Type Training",
