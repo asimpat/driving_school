@@ -47,7 +47,7 @@ const Hero = () => {
       font-semibold
       text-lg
       shadow-lg
-      hover:bg-[#7CFC00]
+      hover:bg-[#7CFC00] 
       hover:shadow-xl
       transition-all
       duration-300
