@@ -52,7 +52,7 @@ const Hero = () => {
       transition-all
       duration-300
     "
-            > 
+            >  
               Get Started
             </a>
  
