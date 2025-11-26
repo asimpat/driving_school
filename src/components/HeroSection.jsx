@@ -55,7 +55,7 @@ const Hero = () => {
             > 
               Get Started
             </a>
-
+ 
             {/* <button className="border-2 border-white text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-[#1a1a2e] transition-all duration-300">
               Learn More
             </button> */}
