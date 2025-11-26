@@ -38,20 +38,20 @@ const Hero = () => {
             <a
               href="#contact"
               className="
-      inline-block
-      bg-[#90EE90]
-      text-[#1a1a2e]
-      px-10
-      py-4
-      rounded-full
-      font-semibold
-      text-lg
-      shadow-lg
-      hover:bg-[#7CFC00] 
-      hover:shadow-xl
-      transition-all
-      duration-300
-    "
+                          inline-block
+                          bg-[#90EE90]
+                          text-[#1a1a2e]
+                          px-10
+                          py-4
+                          rounded-full
+                          font-semibold
+                          text-lg
+                          shadow-lg
+                          hover:bg-[#7CFC00] 
+                          hover:shadow-xl
+                          transition-all
+                          duration-300
+                        "
             >  
               Get Started
             </a>
