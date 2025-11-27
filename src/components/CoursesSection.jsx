@@ -32,7 +32,7 @@ const CoursesSection = () => {
       features: [
         "20 Hours Behind the Wheel",
         "All Road Type Training",
-        "Night Driving Sessions",
+        "Night Driving Sessions", 
         "Test Day Simulation",
         "Full Support Until You Pass",
       ],
