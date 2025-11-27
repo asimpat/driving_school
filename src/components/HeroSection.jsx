@@ -51,7 +51,7 @@ const Hero = () => {
                           hover:shadow-xl
                           transition-all
                           duration-300
-                        "
+                        " 
             >  
               Get Started 
             </a>
