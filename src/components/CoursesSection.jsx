@@ -19,7 +19,7 @@ const CoursesSection = () => {
       popular: true,
       features: [
         "15 Hours Behind the Wheel",
-        "Highway Driving Skills",
+        "Highway Driving Skills",  
         "Advanced Parking Techniques",
         "Defensive Driving Training",
         "Test Day Simulation",
