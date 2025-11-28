@@ -35,7 +35,7 @@ const Hero = () => {
             journey to becoming a confident driver today.
           </p>
           {/* <div className="flex flex-col sm:flex-row gap-6"> */}
-            <a
+            <a 
               href="#contact"
               className="
                           inline-block
