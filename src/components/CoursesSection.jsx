@@ -34,7 +34,7 @@ const CoursesSection = () => {
         "All Road Type Training",
         "Night Driving Sessions", 
         "Test Day Simulation",
-        "Full Support Until You Pass",
+        "Full Support Until You Pass", 
       ],
     },
   ];
